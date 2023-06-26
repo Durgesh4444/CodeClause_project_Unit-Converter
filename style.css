@@ -234,4 +234,7 @@ hr{
 .fa-solid{
     left: 0;
 }
+.active{
+    margin: 10px;
+}
 }
