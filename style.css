@@ -215,6 +215,12 @@ hr{
     transition: 1s;
     font-size: 18px;
 }
+.responsive-navitem a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .fa-circle-xmark{
     margin-top: 1rem;
 }
