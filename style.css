@@ -215,6 +215,9 @@ hr{
     transition: 1s;
     font-size: 18px;
 }
+.fa-circle-xmark{
+    margin-top: 2rem;
+}
 .display{
     right: -50%;
 }
