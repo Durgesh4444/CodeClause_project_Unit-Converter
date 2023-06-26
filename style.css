@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+}
+body{
+    text-align: center;
+    background-color: #9270e0;
+}
+.container{
+    padding: 2rem;
+    background-color: #19e1b9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width:50%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.container h2{
+    width: 8rem;
+}
+.from{
+    display: flex;
+    gap: 4rem;
+}
+.to{
+    display: flex;
+    gap: 4rem;
+}
+
+select{
+    width:10rem;
+    height: 5vh;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 8px 8px;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+
+input{
+    outline: none;
+    width: 20rem;
+    height: 5vh;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+::placeholder{
+    font-size: 17px;
+    color:gray;
+}
+hr{
+    background-color: #fff;
+    height: 2px;
+    border: none;
+}
+
+.result{
+   max-width: 85%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.units{
+    padding: 1rem 0;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    background-color:#19e1b9;
+    margin: 0 auto 5rem;
+
+   
+}
+.units a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 1s;
+}
+.units a:hover{
+   text-decoration: underline;
+}
+
+
+.active{
+    background-color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #000;
+}
+
+
+/* Ipad------------------------------------- */
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+    .units {
+        gap: 2.5rem;
+    }
+    .container {
+        width: 80%;   
+    }
+    .from {
+        display: flex;
+        gap: 2rem;
+    }
+    .container h2{
+        width: 8rem;
+        padding-top: 10px;
+    }
+
+    .to {
+        display: flex;
+        gap: 2rem;
+    }
+
+}
+
+/* mobile  */
+
+@media only screen and (max-width: 600px){
+    .units {
+       gap: 1.2rem;
+       flex-wrap: wrap;
+    }
+
+    .container {
+        width: 85%;
+        
+    }
+    .from, .to{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+    .container h2 {
+        padding-top: 8px;
+        width: 4.8rem;
+    }
+    select {
+        width: 60%;
+        height: 5vh;
+        font-size: 15px;
+        
+    }
+    input {
+        width: 98%;
+        height: 5vh;
+
+    }
+}
