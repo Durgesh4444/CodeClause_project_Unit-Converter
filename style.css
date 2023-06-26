@@ -132,8 +132,8 @@ hr{
     .units {
        gap: 1.2rem;
        flex-wrap: wrap;
+       margin: 0 auto 3rem;
     }
-
     .container {
         width: 85%;
         
