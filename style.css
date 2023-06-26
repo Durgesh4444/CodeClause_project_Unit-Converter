@@ -147,6 +147,7 @@ hr{
     .container h2 {
         padding-top: 8px;
         width: 4.8rem;
+        font-size: 18px;
     }
     select {
         width: 60%;
@@ -158,5 +159,9 @@ hr{
         width: 98%;
         height: 5vh;
 
+    }
+    .res-from{
+        width: 100%;
+        flex-wrap: nowrap;
     }
 }
